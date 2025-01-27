@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+                 <div class="navbar">
+            <div class="logo">
+              <!-- <img src="images/download.webp" alt="logo" width="125"> -->
+              <h1>Miracle<h1/>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#work">Works</a></li>
+                    <li><a href="#clients">Client</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <span src="images/menu.png"><img src="images/menu.png" alt="" width="25px" class="menu-icon" onclick="menutoggle()"></span>
+                </div>
+            </div>
+            <div class="row" id="home">
+                <div class="col-2">
+                    <h3></h3>
+                    <h1>I am a creat!ve professsional <br> who crafts influential brands <br> and engaging digital <br> experiences.</h1>
+                </div>
+                <div class="col-2">
+                        <i class="fa fa-facebook-f"></i>
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-behance"></i>
+                        <i class="fa fa-dribble" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="btn">
+                        <a href="">START A PROJECT</a><br class="ff"><br class="ff"><br class="ff"><br class="ff">
+                            <a href="">MORE ABOUT ME</a>
+                    </div>
+                    
+                </div>
+    </div>
+    
+    <div class="about" id="about">
+        <div class="text">
+            <h3>HELLO THERE</h3>
+            <h1>I'm  Lawrence Miracle</h1>
+            <hr class="hr">
+        </div>
+        <div class="lorem">
+            <p>I am a passionate and dedicated Developer with a strong focus on creating influential brands and immersive <br> digital experiences. With a keen eye for detail and a drive for innovation, I aim to bring unique visions <br>  to life, ensuring every project I work on is both functional and aesthetically pleasing. <br> Let’s embark on a journey to transform ideas into reality. </p>
+        </div>
+        <div class="count">
+            <div class="counter">
+                <h1 class="boss" id="b1" data-target="6">6</h1>
+                <span>Skills Acquired</span>
+            </div>
+            <hr class="special">
+            <div class="counter">
+                <h1 class="boss" id="b2" data-target="16">16</h1>
+                <span>Design Hours</span>
+            </div>
+            <hr class="special">
+            <div class="counter">
+                <h1 class="boss" id="b3" data-target="48">48</h1>
+                <span>Project Completed</span>
+            </div>
+            <hr class="special">
+            <div class="counter">
+                <h1 class="boss" id="b4" data-target="37">37</h1>
+                <span>Happy Clients</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="services" id="services">
+        <div class="head">
+            <h3>WHAT I DO</h3>
+            <h1>I specialize in bringing contents to life through<br class="jags">  innovative concepts and design.</h1>
+            <hr class="swag">
+        </div>
+        <div class="infoc">
+            <div class="info">
+                <div class="a">
+                    <h3>Brand Identity</h3>
+                    <p>Crafting unique and memorable brand identities that reflect the core values of a business or project. Logos, typography,and color palletes which are designed to tell a story.</p>
+                </div>
+                <div class="a">
+                    <h3>Illustration</h3>
+                    <p>Designing eye-catching and creative illustrations that enhance visual communication, whether for digital platforms and print media.</p>
+                </div>
+            </div>
+            <div class="info-2">
+                <div class="a">
+                    <h3>Marketing</h3>
+                    <p>Developing creative strtegies to help projects and ideas reach the thr the the right audence. My work includes social media managing, campaigns, and branding.</p>
+                </div>
+                <div class="a">
+                    <h3>Web Design</h3>
+                    <p>Creating intuitive, user-friendly website designs that combine creativity and functionality to provide the best user experience.</p>
+                </div>
+            </div>
+            <div class="info-3">
+                <div class="a">
+                    <h3>Packaging Design</h3>
+                    <p class="">Designing engaging products packaging that captures attention brings the use or essence of the product to the communicates .</p>
+                </div>
+                
+                <div class="a">
+                    <h3>Web Development</h3>
+                    <p class="down" id="down">Transforming designs into functional, responsive, and secure websites using modern tools and technologies.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact" id="contact">
+        <div class="contect">
+            <h3>CONTACT US</h3>
+            <h1>Reach out for a new project or just say <br class="cok"> hello</h1>
+        </div>
+        <div class="form">
+            <div class="fom">
+                <div>
+                        <h3>SEND US A MESSAGE</h3>
+                </div>
+                    <form action="mailto:lawrencemiracle100@gmail.com" method="post">
+                            <input name="contactName" type="text"  id="contact" placeholder="Your Name" value minlength="2" required aria-required="true" class="full-width"><br>
+                            <input name="contactEmail" type="email" id="contact" placeholder="Your Email" value="" required="" aria-required="true" class="full-width"><br>
+                            <input name="contactSubject" type="text" id="contact" placeholder="Subject" value="" class="full-width"><br>
+                            <textarea name="contactMe" id="contactMessage" placeholder="Your Message"rows="10" cols="50" required aria-required="true" class="full-width"></textarea><br>
+                            <button class="but" type="submit">SUBMIT</button>
+                        </form>
+            </div>
+            <div class="contactinfo">
+                <div>
+                        <h3>CONTACT INFO</h3>
+                </div>
+                <div class="address">
+                        <h5>Where to Find Us</h5>
+                        <p> 3b Grazeland Avenue<br> KIGRA Akobo, IB<br> 200132 NG</p>
+                </div>
+                <div class="email">
+                        <h5>Email Us At</h5>
+                        <p> contact@miracle.com<br> info@lawrence.com</p>
+                </div>
+                <div class="phone">
+                        <h5>Call Us At</h5>
+                        <p> Phone: +234 913 816 6187 <br> Mobile: +234 700 701 8765<br> Fax: +234 123 456 7890</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="footer">
+        <div class="read">
+            <p>I am <span class="iamwhite">Lawrence Miracle, </span>a passionate developer specializing in  <br> creating influential brands and immersive digital experiences. <br> My work combines creativity and functionality to bring <br> unique  visions to life. <br> Let's connect and make your ideas a reality. </p> 
+        </div>
+        <div class="sub">
+            <div class="again">
+                    <h4>Stay Updated</h4>
+            </div>
+            <p>Subscribe to my newsletter to get the latest updates on my <br> projects, insights, and tips. Be the first to know about my new <br>  ventures and innovations.</p>
+            <div class="sub-1">
+                <form action="https://formspree.io/f/mrbbonrq" method="post" id="subscribeForm"></form>
+                <input type="email" name="Email" id="mc-email" placeholder="Email Address" required>
+                <input type="submit" value="SUBSCRIBE" name="SUBSCRIBE" class="mc-subscribe" onclick="subscribe(event)"><br>
+                <label for="mc-email" class="subscribe-message" id="subscribeMessage"></label>
+            </div>
+        </div>
+    </div>
+
+
+    
+ 
+    <script>
+
+var MenuItems = document.getElementById("MenuItems");
+
+MenuItems.style.maxHeight = "0px";
+
+function menutoggle(){
+    if(MenuItems.style.maxHeight == "0px")
+    {
+        MenuItems.style.maxHeight = "200px";
+    }
+else
+    {
+        MenuItems.style.maxHeight = "0px";
+    }
+}      
+
+    $(document).ready(function () {
+        $('.boss').counterUp({
+            delay:10,
+            time: 1200
+        });
+    });
+
+
+
+    
+
+    const texts = ["Hi there", "I'm Lawrence Miracle"];
+    let index = 0;
+    let charIndex = 0;
+    const typingSpeed = 150;
+    const erasingSpeed = 100;
+    const delayBetween = 1500;
+    const typingElement = document.querySelector('.col-2 h3');
+
+    function type() {
+        if (charIndex < texts[index].length) {
+            typingElement.textContent += texts[index].charAt(charIndex);
+            charIndex++;
+            setTimeout(type, typingSpeed);
+        } else {
+            setTimeout(erase, delayBetween);
+        }
+    }
+
+    function erase() {
+        if (charIndex > 0) {
+            typingElement.textContent = texts[index].substring(0, charIndex - 1);
+            charIndex--;
+            setTimeout(erase, erasingSpeed);
+        } else {
+            index = (index + 1) % texts.length;
+            setTimeout(type, typingSpeed + 500);
+        }
+    }
+
+    document.addEventListener("DOMContentLoaded", function() {
+        setTimeout(type, delayBetween);
+    });
+
+
+
+    function subscribe(event) {
+        var subscribeMessage = document.getElementById('subscribeMessage');
+        var subscribeButton = document.querySelector('.mc-subscribe');
+        var subscribeForm = document.getElementById('subscribeForm');
+
+        // Prevent default form submission to handle the process with JavaScript
+        event.preventDefault();
+
+        // Show "Subscribing..." message
+        subscribeMessage.textContent = "Subscribing...";
+
+        // Disable the button to prevent multiple clicks
+        subscribeButton.disabled = true;
+
+        // Create a new FormData object from the form
+        var formData = new FormData(subscribeForm);
+
+        // Use the Fetch API to send the form data
+        fetch(subscribeForm.action, {
+            method: 'POST',
+            body: formData,
+            headers: {
+                'Accept': 'application/json'
+            }
+        })
+        .then(response => {
+            if (response.ok) {
+                subscribeMessage.textContent = "Subscribed!";
+            } else {
+                throw new Error('Network response was not ok');
+            }
+        })
+        .catch(() => {
+            subscribeMessage.textContent = "Not Submitted!";
+        })
+        .finally(() => {
+            // Re-enable the button
+            subscribeButton.disabled = false;
+
+            // After a short delay, hide the message
+            setTimeout(function() {
+                subscribeMessage.textContent = "";
+            }, 2000);
+        });
+    }
+
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
